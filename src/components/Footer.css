@@ -30,6 +30,21 @@
   color: #aaa;
 }
 
+.footer__socials {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.footer__socials a {
+  color: #aaa;
+  transition: color 0.3s ease;
+}
+
+.footer__socials a:hover {
+  color: var(--color-accent);
+}
+
 .footer__links nav,
 .footer__services nav,
 .footer__areas nav {

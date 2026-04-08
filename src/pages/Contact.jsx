@@ -47,42 +47,36 @@ export default function Contact() {
             </div>
 
             <div>
-              <div className="section-card" style={{ marginBottom: '1.5rem' }}>
-                <h3>Ready to Book?</h3>
-                <p>
-                  Take the first step towards radiant skin and enhanced beauty. Click the button
-                  below to schedule your appointment and start your journey with us today.
-                </p>
-                <a
-                  href="https://facesconsent.com/bookings/lisa-osborn"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn--primary"
-                  style={{ marginTop: '1rem' }}
+              <div className="contact-form-card">
+                <h3>Send Us a Message</h3>
+                <form
+                  action="https://formsubmit.co/Aestheticsandwellnesssanctuary@gmail.com"
+                  method="POST"
+                  className="contact-form"
                 >
-                  Book Your Appointment
-                </a>
-              </div>
-
-              <div className="section-card">
-                <h3>Frequently Asked Questions</h3>
-                <div style={{ marginTop: '1rem' }}>
-                  <p><strong>How do I schedule an appointment?</strong></p>
-                  <p>
-                    You can easily book your appointment through our online booking platform by
-                    clicking the 'Book Now' button.
-                  </p>
-                  <p><strong>What should I expect during my first visit?</strong></p>
-                  <p>
-                    Your first visit includes a comprehensive consultation to understand your needs
-                    and tailor treatments to your preferences.
-                  </p>
-                  <p><strong>What if I need to reschedule?</strong></p>
-                  <p>
-                    Simply contact us at least 24 hours in advance, and we'll be happy to
-                    accommodate your new schedule.
-                  </p>
-                </div>
+                  <input type="hidden" name="_subject" value="New enquiry from website" />
+                  <input type="hidden" name="_captcha" value="false" />
+                  <input type="text" name="_honey" style={{ display: 'none' }} />
+                  <div className="form-group">
+                    <label htmlFor="name">Name</label>
+                    <input type="text" id="name" name="name" required />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="email">Email</label>
+                    <input type="email" id="email" name="email" required />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required />
+                  </div>
+                  <button type="submit" className="btn btn--primary" style={{ width: '100%' }}>
+                    Send Message
+                  </button>
+                </form>
               </div>
             </div>
           </div>

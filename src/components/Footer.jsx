@@ -7,6 +7,9 @@ const navItems = [
   { label: 'Aesthetics', to: '/aesthetics-bar' },
   { label: 'Skin', to: '/skin-bar' },
   { label: 'Tattooing', to: '/cosmetic-tattooing-bar' },
+  { label: 'Waxing', to: '/waxing-bar' },
+  { label: 'Massage', to: '/massage-bar' },
+  { label: 'Brow & Lash', to: '/brow-lash-bar' },
   { label: 'Contact', to: '/contact-us' },
 ]
 
@@ -42,6 +45,9 @@ export default function Footer() {
             <Link to="/aesthetics-bar" className="footer__link">Aesthetics Bar</Link>
             <Link to="/skin-bar" className="footer__link">Skin Bar</Link>
             <Link to="/cosmetic-tattooing-bar" className="footer__link">Cosmetic Tattooing</Link>
+            <Link to="/waxing-bar" className="footer__link">Waxing Bar</Link>
+            <Link to="/massage-bar" className="footer__link">Massage Bar</Link>
+            <Link to="/brow-lash-bar" className="footer__link">Brow & Lash Bar</Link>
             <Link to="/consultations" className="footer__link">Consultations</Link>
             <Link to="/faqs" className="footer__link">FAQs</Link>
           </nav>

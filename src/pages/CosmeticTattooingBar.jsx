@@ -32,7 +32,7 @@ export default function CosmeticTattooingBar() {
       <Hero
         headline="Achieve Effortless Beauty"
         subheadline="Enhance your natural features with our bespoke semi-permanent makeup services."
-        image="/assets/images/AdobeStock_1583158775.jpeg"
+        image="/assets/images/AdobeStock_765070588.jpeg"
         ctaText="Book Your Consultation Today"
       />
 

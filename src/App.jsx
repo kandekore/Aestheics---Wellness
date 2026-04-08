@@ -5,6 +5,9 @@ import About from './pages/About'
 import AestheticsBar from './pages/AestheticsBar'
 import SkinBar from './pages/SkinBar'
 import CosmeticTattooingBar from './pages/CosmeticTattooingBar'
+import WaxingBar from './pages/WaxingBar'
+import MassageBar from './pages/MassageBar'
+import BrowLashBar from './pages/BrowLashBar'
 import Contact from './pages/Contact'
 import Consultations from './pages/Consultations'
 import FAQs from './pages/FAQs'
@@ -57,6 +60,9 @@ function App() {
           <Route path="/aesthetics-bar" element={<AestheticsBar />} />
           <Route path="/skin-bar" element={<SkinBar />} />
           <Route path="/cosmetic-tattooing-bar" element={<CosmeticTattooingBar />} />
+          <Route path="/waxing-bar" element={<WaxingBar />} />
+          <Route path="/massage-bar" element={<MassageBar />} />
+          <Route path="/brow-lash-bar" element={<BrowLashBar />} />
           <Route path="/contact-us" element={<Contact />} />
           <Route path="/consultations" element={<Consultations />} />
           <Route path="/faqs" element={<FAQs />} />

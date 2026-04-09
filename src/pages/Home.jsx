@@ -106,8 +106,8 @@ export default function Home() {
             </div>
             <div className="split-section__image">
               <img
-                src="/assets/images/AdobeStock_967493104.jpeg"
-                alt="Luxury skincare treatment"
+                src="/assets/images/why-choose-us.jpeg"
+                alt="Team members with certificates"
               />
             </div>
           </div>
